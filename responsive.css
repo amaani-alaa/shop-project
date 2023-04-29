@@ -1,0 +1,290 @@
+@media (max-width :900px ){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    body{
+        width: 95%;
+        margin-left: 30px;
+        overflow-x: hidden;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        /*height: 100vh;*/
+        width: 100%;
+        right: -3000px;
+        background-color: antiquewhite;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        transition: 0.3s;
+        z-index: 5;
+        /*margin-top: -350px;*/
+        height: 1000px;
+    
+        
+
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    
+        
+    
+    #navbar22{
+        background-color: white;
+        height: 0;
+        bottom: 0;
+        
+    }
+    #navbar li {
+        bottom: 0;
+        top: -370px;
+        position: relative;
+    }
+    .cart{
+        left: 200px;
+    }
+    .image{
+        bottom: 0;
+        left: 0;
+    }
+    #mobile{
+        display: flex;
+        left: 20px;
+        position: relative;
+        top: 20px;
+        
+    }
+    
+    /*.cart .cartt p{
+        position: relative;
+        top: 10px;
+    }*/
+    #cloose{
+        position: absolute;
+        top: -360px;
+        position: relative;
+        display: initial;
+        left: 850px;
+        color: #222;
+        font-size: 18px;
+    }
+    .home{
+        /*background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;*/
+        position: relative;
+        height: 70vh;
+        padding: 0 80px;
+        /*background-position: top 20% right 30% ;*/
+        
+        
+    }
+    .home .img2h{
+        z-index: 1;
+        position: relative;
+        margin-left:330px;
+        top : -514px;
+        width: 62%;
+        
+    }
+    .home .img1h{
+        position: relative;
+        margin-left:320px;
+        margin-top: -940px;
+        width: 60%;
+
+        
+    }
+    .home .title{
+        position: relative;
+        left: -100px;
+        top: -150px;
+    }
+    .pro1 h6,
+    .pro1 h2{
+        position: relative;
+        left: -200px;
+
+    }
+    .pro-container{
+        padding: 10px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .pro{
+        width: 25%;
+        height: 300px;
+        min-width: 260px;
+        padding: 10px 0px 380px;
+        cursor: pointer;
+        margin: 15px 0;
+        transition: 0.2s ease;
+        position: relative;
+    }
+    .men{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        margin-top: 50px;
+            
+    
+    }
+    .mencollection img{
+        position: relative;
+        left: 10px; 
+        width: 70%;
+   
+   }
+   .dessmen{
+    position: relative;
+    left: -160px;
+   }
+    
+   .mencollection-mencollection2 {
+    position: relative;
+    left: 430px;
+    
+    }
+    .mencollection-mencollection2 img {
+        width:70%;
+        position: relative;
+        top: -463px;
+    }
+    .scrolling{
+        position: relative;
+        top: -420px;
+    }
+    .desscrolling{
+        position: relative;
+        left: -220px;
+    }
+    .women{
+        position: relative;
+        top: -400px;
+    }
+    .summercollection h6,
+    .summercollection h2{
+        position: relative;
+        left: -150px;
+        
+    }
+    .summercollection{
+        position: relative;
+        top: -600px;
+    }
+    .Review{
+        position: relative;
+        top: -750px;
+        left: -200px;
+    }
+    .men-women{
+        position: relative;
+        top: -800px;
+        left: -100px;
+    }
+    .men-women .menwomen{
+        position: relative;
+        left: 20px;
+
+        /*width: 40%;*/
+    }
+    .men-women .menwomen a {
+        position: relative;
+        top: -50px;
+        left: 220px;
+        width: 2%;
+        padding-left: 0px;
+        padding: 0 0 0 0 ;
+        
+
+        /*top: -50px;
+        left: 110px;
+        width: 10%;
+        padding-left: 0;
+        background-color: aqua ;
+        padding-top: 50px;*/
+        
+        
+    }
+    .men-women .menwomen a h6{
+        position: relative;
+        left: 0px;
+        top: 5px;
+        padding: 0 0 0 0px;
+    }
+    .men-women .womenmen{
+        position: relative;
+        bottom: -150px;
+        left: -190px;
+
+    }
+    .men-women .womenmen a{
+        position: relative;
+        right: -330px;
+        top: -33px;
+        padding: 0 0 0 0;
+    }
+    .men-women .womenmen a h6{
+        position: relative;
+        left:  -180px;
+    }
+    .end{
+        position: relative;
+        top:-600px;
+    }
+    .head2{
+        position: relative;
+        left: -170px;
+    }
+    .head2 h1{
+        position: relative;
+        left: 50px;
+    }
+    .head2 h1 span{
+        position: relative;
+        right: 240px;
+
+    }
+    .head2 button{
+        position: relative;
+        left: 700px;
+        top: -35px;
+    }
+    #navbar2{
+        position: relative;
+        left:170px;
+    }
+    #con{
+        position: relative;
+        right: -600px;
+    }
+    .icon{
+        position: relative;
+        left: 200px;
+    }
+    .end2{
+        position: relative;
+        top: -100px;
+    }
+    .end2 h4{
+        position: relative;
+        left: -200px;
+    }
+    
+     
+
+}
